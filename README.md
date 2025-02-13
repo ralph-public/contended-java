@@ -22,12 +22,14 @@ The test flips the value of two boolean values,in two threads, one variable in e
 
 Sample output
 
-Testing false shared switchboard
-Total time for a 100000000 flips 4528 milli seconds
-====================================================  
-Testing unshared switchboard
-Total time for a 100000000 flips 789 milli seconds
-====================================================
+Testing false shared switchboard  
+Total time for a 100000000 flips 4528 milli seconds 
 
+====================================================  
+
+Testing unshared switchboard  
+Total time for a 100000000 flips 789 milli seconds  
+
+====================================================  
 There is a 7 times performance increase when the boolean variables don't have to share a cache line.
 
